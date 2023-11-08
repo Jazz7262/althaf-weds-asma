@@ -5,101 +5,98 @@ import { loadFull } from "tsparticles";
 import timelineParticlesConfig from "../ts-particles-config-files/timeline-particles-config";
 
 function Timeline() {
-    const particlesInit = useCallback(async (engine) => {
-        await loadFull(engine);
-    }, []);
+  const particlesInit = useCallback(async (engine) => {
+    await loadFull(engine);
+  }, []);
 
-    return (
-        // <section id="timeline">
-        //     <Particles
-        //         id="timeline-ts-particles"
-        //         init={particlesInit}
-        //         options={timelineParticlesConfig}
-        //     ></Particles>
-        //     <div className="single-timeline">
-        //         <h1 className="inshaallaah">Inshaallaah ...</h1>
+  return (
+    // <section id="timeline">
+    //     <Particles
+    //         id="timeline-ts-particles"
+    //         init={particlesInit}
+    //         options={timelineParticlesConfig}
+    //     ></Particles>
+    //     <div className="single-timeline">
+    //         <h1 className="inshaallaah">Inshaallaah ...</h1>
 
-        //         <div
-        //             className="wrapper"
-        //             data-aos="fade-up"
-        //             data-aos-delay="100"
-        //         >
-        //             <div className="content">
-        //                 <h1>Engagement Ceremony</h1>
-        //                 <p>
-        //                     On Thursday, 13<sup>th</sup> November, 2023,
-        //                     <br />
-        //                     24<sup>th</sup> Zil-Hajjah, 1445 Hijri,
-        //                     <br />
-        //                     After Namaaz -e- Zohar,
-        //                     <br />
-        //                     Time: 02:00 PM.
-        //                 </p>
-        //                 <h2>Venue:</h2>
-        //                 <p>
-        //                     International Function Hall,
-        //                     <br /> 3<sup>rd</sup> road, SKD Colony,
-        //                     <br /> Adoni.
-        //                 </p>
-        //             </div>
-        //         </div>
-        //     </div>
-        // </section>
+    //         <div
+    //             className="wrapper"
+    //             data-aos="fade-up"
+    //             data-aos-delay="100"
+    //         >
+    //             <div className="content">
+    //                 <h1>Engagement Ceremony</h1>
+    //                 <p>
+    //                     On Thursday, 13<sup>th</sup> November, 2023,
+    //                     <br />
+    //                     24<sup>th</sup> Zil-Hajjah, 1445 Hijri,
+    //                     <br />
+    //                     After Namaaz -e- Zohar,
+    //                     <br />
+    //                     Time: 02:00 PM.
+    //                 </p>
+    //                 <h2>Venue:</h2>
+    //                 <p>
+    //                     International Function Hall,
+    //                     <br /> 3<sup>rd</sup> road, SKD Colony,
+    //                     <br /> Adoni.
+    //                 </p>
+    //             </div>
+    //         </div>
+    //     </div>
+    // </section>
 
-        <section id="timeline">
-            <Particles
-                id="timeline-ts-particles"
-                init={particlesInit}
-                options={timelineParticlesConfig}
-            ></Particles>
-            <div className="multi-timeline">
-                <h1 className="inshaallaah">Inshaallaah ...</h1>
-                <div className="wrapper">
-                    {/* shukrana included */}
-                    <>
-                        <div className="row">
-                            <div className="col-lg-6 left" data-aos="fade-down">
-                                <h1>Shukrana</h1>
-                                <p>
-                                    On Saturday, 04<sup>th</sup> November, 2023.
-                                    <br />
-                                    20<sup>th</sup> Rabi-ul-Aakhir, 1445 Hijri,
-                                    <br />
-                                    Time: 09:00 PM.
-                                </p>
+    <section id="timeline">
+      <Particles
+        id="timeline-ts-particles"
+        init={particlesInit}
+        options={timelineParticlesConfig}
+      ></Particles>
+      <div className="multi-timeline">
+        <h1 className="inshaallaah">Inshaallaah ...</h1>
+        <div className="wrapper">
+          {/* shukrana included */}
+          <>
+            <div className="row">
+              <div className="col-lg-6 left" data-aos="fade-down">
+                <h1>Shukrana</h1>
+                <p>
+                  On Saturday, 11<sup>th</sup> November, 2023.
+                  <br />
+                  26<sup>th</sup> Rabi-ul-Aakhir, 1445 Hijri,
+                  <br />
+                  Time: 08:30 PM.
+                </p>
 
-                                <h2>Venue:</h2>
+                {/* <h2>Venue:</h2>
                                 <p>
                                     KKB Function Hall,
                                     <br /> NGO's Colony,
                                     <br /> Adoni.
-                                </p>
-                            </div>
-                            <div
-                                className="col-lg-6 right"
-                                data-aos="fade-down"
-                            ></div>
-                        </div>
-                        <div className="row">
-                            <div
-                                className="col-lg-6 left next"
-                                data-aos="fade-down"
-                                data-aos-offset="200"
-                            ></div>
-                            <div
-                                className="col-lg-6 right next"
-                                data-aos="fade-down"
-                                data-aos-offset="200"
-                            >
-                                <h1>Nikaah</h1>
-                                <p>
-                                    On Sunday, 05<sup>th</sup> November, 2023,
-                                    <br />
-                                    21<sup>st</sup> Rabi-ul-Aakhir, 1445 Hijri,
-                                    <br /> Time: 12:45 PM.
-                                </p>
+                                </p> */}
+              </div>
+              <div className="col-lg-6 right" data-aos="fade-down"></div>
+            </div>
+            <div className="row">
+              <div
+                className="col-lg-6 left next"
+                data-aos="fade-down"
+                data-aos-offset="200"
+              ></div>
+              <div
+                className="col-lg-6 right next"
+                data-aos="fade-down"
+                data-aos-offset="200"
+              >
+                <h1>Nikaah</h1>
+                <p>
+                  On Sunday, 12<sup>th</sup> November, 2023,
+                  <br />
+                  27<sup>st</sup> Rabi-ul-Aakhir, 1445 Hijri,
+                  <br /> Time: 12:35 PM.
+                </p>
 
-                                {/* <h2>Venue:</h2>
+                {/* <h2>Venue:</h2>
                                 <p>
                                     Masjid -e- Shekhan,
                                     <br /> Near Yemmiganur By-pass Road,
@@ -116,48 +113,48 @@ function Timeline() {
                                     <br /> Adoni.
                                 </p> */}
 
-                                <h2>Venue:</h2>
-                                <p>
-                                    KKB Function Hall,
-                                    <br /> NGO's Colony,
-                                    <br /> Adoni.
-                                </p>
-                            </div>
-                        </div>
-                        <div className="row">
-                            <div
-                                className="col-lg-6 left next"
-                                data-aos="fade-down"
-                                data-aos-offset="200"
-                                data-aos-delay="100"
-                            >
-                                <h1>Valima</h1>
+                <h2>Venue:</h2>
+                <p>
+                  Megha Function Hall,
+                  <br /> Gangavati Road,
+                  <br /> Tavaragera.
+                </p>
+              </div>
+            </div>
+            <div className="row">
+              <div
+                className="col-lg-6 left next"
+                data-aos="fade-down"
+                data-aos-offset="200"
+                data-aos-delay="100"
+              >
+                <h1>Valima</h1>
 
-                                <p>
-                                    On Monday, 06<sup>th</sup> November, 2023,
-                                    <br />
-                                    22<sup>nd</sup> Rabi-ul-Aakhir, 1445 Hijri,
-                                    <br />
-                                    Time: 02:00 PM.
-                                </p>
+                <p>
+                  On Tuesday, 14<sup>th</sup> November, 2023,
+                  <br />
+                  29<sup>nd</sup> Rabi-ul-Aakhir, 1445 Hijri,
+                  <br />
+                  Time: 01:45 PM.
+                </p>
 
-                                <h2>Venue:</h2>
-                                <p>
-                                    KKB Function Hall,
-                                    <br /> NGO's Colony,
-                                    <br /> Adoni.
-                                </p>
-                            </div>
-                            <div
-                                className="col-lg-6 right next"
-                                data-aos="fade-down"
-                                data-aos-offset="200"
-                                data-aos-delay="100"
-                            ></div>
-                        </div>
-                    </>
-                    {/* shukrana excluded */}
-                    {/* <>
+                <h2>Venue:</h2>
+                <p>
+                  Siddipriya Kalyana Mantapa,
+                  <br /> Near I.B. College Road,
+                  <br /> Hospet.
+                </p>
+              </div>
+              <div
+                className="col-lg-6 right next"
+                data-aos="fade-down"
+                data-aos-offset="200"
+                data-aos-delay="100"
+              ></div>
+            </div>
+          </>
+          {/* shukrana excluded */}
+          {/* <>
         //                 <div className="row">
         //                     <div
         //                         className="col-lg-6 left next"
@@ -216,10 +213,10 @@ function Timeline() {
         //                     </div>
         //                 </div>
         //             </> */}
-                </div>
-            </div>
-        </section>
-    );
+        </div>
+      </div>
+    </section>
+  );
 }
 
 export default Timeline;
