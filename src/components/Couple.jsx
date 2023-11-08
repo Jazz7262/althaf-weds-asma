@@ -121,7 +121,6 @@ function Couple() {
               <p className="mt-2 mt-lg-3">
                 Grand S/O Janab <strong>D. Rahiman Sahab(Late).</strong>{" "}
               </p>
-              <p className="mt-1 mt-lg-2">Ilahi Petroleum, Tavaragera.</p>
               {/* <p className="mt-2 mt-lg-3">
                                 Proprietor: <strong>SSV PAints,</strong>{" "}
                                 Asianpaints Authorised Dealer
@@ -256,6 +255,8 @@ function Couple() {
               <p className="mt-2 mt-lg-3">
                 D/O Janab <strong>M.A. Gani,</strong>
               </p>
+
+              <p className="mt-1 mt-lg-2">Ilahi Petroleum, Tavaragera.</p>
 
               {/* <p className="mt-2 mt-lg-3">
                                 Paternal Grand D/O Janab{" "}
